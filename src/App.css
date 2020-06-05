@@ -1,0 +1,135 @@
+h1 {
+  margin: 20px 0 50px;
+  font: 600 35px "sans-serif";
+  text-align: center;
+}
+
+form {
+  width: 60%;
+  margin: 0 auto 100px;
+}
+
+form label {
+  margin-right: 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 5px 0;
+}
+
+.user-row {
+  padding: 10px 0;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-row > div {
+  margin-right: 20px;
+}
+
+.user-row > div:not(:last-child) {
+  flex-basis: 25%;
+}
+
+.form-btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form-btns button {
+  width: 100%;
+  padding: 5px 0;
+  margin-right: 10px;
+  border: 1px solid;
+  flex-basis: 15%;
+  background-color: #fff;
+  color: #000;
+  transition: .3s ease;
+}
+
+.form-btns button:hover {
+  background-color: #808080;
+  color: #fff;
+}
+
+.user-table {
+  width: 60%;
+  margin: 50px auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  font: 500 25px "sans-serif";
+  text-align: center;
+}
+
+.user-list {
+  padding: 5px 0;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #808080;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-list > li:first-child {
+  font: 500 20px "sans-serif";
+}
+
+.usertable-btns {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.usertable-btns button {
+  padding: 2px 10px;
+  margin-right: 10px;
+  border: 1px solid;
+  background-color: #fff;
+  color: #000;
+  transition: .3s ease;
+}
+
+.usertable-btns button:hover {
+  background-color: #808080;
+  color: #fff;
+}
+
+.preview-container {
+  width: 60%;
+  margin: 0 auto 100px;
+}
+
+.preview-list {
+  width: 40%;
+  margin: 0 auto;
+  border: 2px solid #808080;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.preview-list li {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.preview-list li span {
+  margin-right: 10px;
+  display: inline-block;
+  font: 600 15px "sans-serif";
+}
+
+.preview-btns {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.preview-btns button:first-child {
+  margin-right: 10px;
+}
